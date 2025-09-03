@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>School Management System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #967e7e;
+    }
+
+    header {
+      background-color: #798794;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content:start;
+      padding: 0.5rem;
+      font-size: 20px;
+      
+    }
+
+    nav a {
+      color: rgb(192, 180, 180);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      padding-left: 20px;
+    }
+
+    nav a:hover {
+      text-decoration:none;
+      color: rgb(155, 115, 101);
+    }
+.login a{
+    text-align:end;
+    align-content: flex-end;
+}
+    .container {
+      padding:1rem;
+    }
+
+    .section {
+      background-color: rgba(105, 110, 61, 0.952);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2c3e50;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    h2 {
+      color: #2c3e50;
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #155f85;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>School Management System</h1>
+</header>
+
+<nav>
+  <a href="Home.html">Home</a>
+  <a href="students">Students</a>
+  <a href="teachers">Teachers</a>
+  <a href="classes">Classes</a>
+  <div class="login">
+  <a href="Login.html">Login/Register</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="section" id="students">
+    <h2>Students</h2>
+    <p>Manage student records including admission, attendance, grades, and profiles.</p>
+    <button onclick="alert('Student management coming soon!')">Manage Students</button>
+  </div>
+
+  <div class="section" id="teachers">
+    <h2>Teachers</h2>
+    <p>Manage teacher profiles, schedules, and performance reports.</p>
+    <button onclick="alert('Teacher management coming soon!')">Manage Teachers</button>
+  </div>
+
+  <div class="section" id="classes">
+    <h2>Classes</h2>
+    <p>View and organize class schedules, subjects, and room allocations.</p>
+    <button onclick="alert('Class management coming soon!')">Manage Classes</button>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 School Management System | All rights reserved.
+</footer>
+
+</body>
+</html>
